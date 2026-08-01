@@ -52,7 +52,7 @@ while game_on:
     ball.move()
 
 
-    time.sleep(0.1)
+    time.sleep(0.01)
 
 
     if ball.ycor()>380 or ball.ycor()<-380:
